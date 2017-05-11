@@ -1,0 +1,5 @@
+1   HServer和HNode 需要使用JDK8及以上
+
+2   如果是给web项目使用，需要删除打包后META-INF\下面的maven和services两个文件夹
+
+3   如果在JDK7及以下的web包使用，要删除包内的com,org/eclipse,javax文件夹.要删除包内HHH.HWebSocket，HHH.HNode，HHH.HServer文件夹
